@@ -4,7 +4,7 @@ const GrandSon = (message) => {
     return (
     <>
         <div className="gson">
-            Grand Son {message.familyName}
+            <h4>Grand Son {message.familyName}</h4>
         </div>
     </>
     )

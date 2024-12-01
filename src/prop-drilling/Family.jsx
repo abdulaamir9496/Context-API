@@ -1,6 +1,7 @@
 import Parent from './Parent';
 
 const Family = (message) => {
+    console.log(message)
     return (
     <>
         <div className='family'>
