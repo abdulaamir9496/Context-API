@@ -5,7 +5,9 @@ const GrandSon = () => {
     const information = useContext(ContextFamily)
     return (
         <>
-            <h4 className="gson">Grand Son component is a {information.familyName}</h4>
+            <div className="gson">
+                <h4>Grand Son component is a {information.familyName}</h4>
+            </div>
         </>
     )
 }

@@ -5,7 +5,9 @@ const GrandDaughter = () => {
     const updating = useContext(ContextFamily)
     return (
         <>
-            <h4 className="gdaughter">Grand Daughter component is a {updating.familyName}</h4>
+            <div className="gdaughter">
+                <h4>Grand Daughter component is a {updating.familyName}</h4>
+            </div>
         </>
     )
 }

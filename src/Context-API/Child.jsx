@@ -9,9 +9,11 @@ const Child = () => {
     const message = useContext(ContextFamily)
     return (
         <>
-            <h3 className="child">Child component is a {message.familyName}</h3>
-            <GrandSon />
-            <GrandDaughter />
+            <div className="child">
+                <h3>Child component is a {message.familyName}</h3>
+                <GrandSon />
+                <GrandDaughter />
+            </div>
         </>
     )
 }

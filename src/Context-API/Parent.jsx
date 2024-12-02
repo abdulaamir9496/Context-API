@@ -6,8 +6,10 @@ const Parent = () => {
     const details = useContext(ContextFamily)
     return (
         <>
-            <h2 className="parent">Parent component is a {details.familyName}</h2>
-            <Child />
+            <div className="parent">
+                <h2>Parent component is a {details.familyName}</h2>
+                <Child />
+            </div>
         </>
     )
 }
