@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 
-
-const GrandSon = (message) => {
+const GrandSon = ({message}) => {
     return (
     <>
         <div className="gson">
@@ -8,6 +8,12 @@ const GrandSon = (message) => {
         </div>
     </>
     )
+}
+
+GrandSon.propTypes = {
+    message: PropTypes.shape({
+        familyName: PropTypes.string.isRequired
+    }).isRequired
 }
 
 export default GrandSon

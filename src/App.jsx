@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>React App</h1>
+        <h1>Family Name Chain</h1>
         <Family message ={familyMessage} />
       </div>
     </>

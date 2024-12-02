@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 
-
-const GrandDaugther = (message) => {
+const GrandDaugther = ({message}) => {
     return (
     <>
         <div className="gdaughter">
@@ -8,6 +8,12 @@ const GrandDaugther = (message) => {
         </div>
     </>
     )
+}
+
+GrandDaugther.propTypes = {
+    message: PropTypes.shape({
+        familyName: PropTypes.string.isRequired,
+    }).isRequired
 }
 
 export default GrandDaugther
